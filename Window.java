@@ -1,10 +1,10 @@
 import javax.swing.*;
-class Window extends JFrame
+class SAS extends JFrame
 {
   JPanel pnl = new JPanel();
-  public Window()
+  public SAS()
   {
-    super("Swing Window");
+    super("SAS");
     setSize(1000, 400);
     setDefaultCloseOperation(EXIT_ON_CLOSE);
     add(pnl);
@@ -12,7 +12,7 @@ class Window extends JFrame
   }
   public static void main(String[] args)
   {
-    Window gui = new Window();
+    SAS gui = new SAS();
   }
 }
     
