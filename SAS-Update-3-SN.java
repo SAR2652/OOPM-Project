@@ -5,7 +5,7 @@ class SAS extends JFrame
   public SAS()
   {
     super("SAS");
-    setSize(1920, 1080);
+    setSize(800,800);
     setDefaultCloseOperation(EXIT_ON_CLOSE);
     add(pnl);
     setVisible(true);
