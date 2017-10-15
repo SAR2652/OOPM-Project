@@ -1,9 +1,9 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-/*
-Creates  a frame for the editor
-*/
+
+//Creates  a frame for the editor
+
 public class createWindow
 {
 	void show_window()
@@ -16,6 +16,5 @@ public class createWindow
                 textArea.setLineWrap(true);
                 frame.getContentPane().add(scrollpane);
                 frame.setVisible(true);
-
 	}
 }
